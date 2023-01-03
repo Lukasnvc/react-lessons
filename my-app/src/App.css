@@ -1,0 +1,57 @@
+.App {
+  background-color: rgb(219, 218, 218);
+}
+.logo {
+  width: 100px;
+  height: 50px;
+  object-fit: cover;
+  margin: 10px;
+  margin-bottom: 0;
+}
+
+.nav-bar {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  background-color: rgb(33, 33, 54);
+  color: white;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.hero {
+  height: 400px;
+  background-image: url("https://bd.gaadicdn.com/processedimages/hero/xtreme-160r/640X309/xtreme-160r6333f00ce4644.jpg");
+  background-size: cover;
+}
+
+.title-cards {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.title-cards div {
+  background-color: rgb(255, 253, 253);
+  padding: 10px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: rgb(255, 253, 253);
+  padding: 20px;
+}
+
+.aside-nav-bar {
+  background-color: rgb(219, 218, 218);
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 40px;
+  color: rgb(78, 76, 76);
+  padding: 20px;
+  margin: 10px;
+}
+
