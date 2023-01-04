@@ -1,9 +1,10 @@
 import "./App.css";
-import { aside } from "./Aside";
-import { content } from "./Content";
-import { titles } from "./Titles";
-import { nav } from "./Nav";
-import { hero } from "./Hero";
+import Logo from "./Logo";
+import Aside from "./Aside";
+import Content from "./Content";
+import Titles from "./Titles";
+import Nav from "./Nav";
+import Hero from "./Hero";
 
 // App.js yra pagrindinis komponentas
 // Vienas failas = vienas komponentas
@@ -16,12 +17,13 @@ import { hero } from "./Hero";
 function App() {
   return (
     <div className="App">
-      {nav}
-      {hero}
-      <div className="title-cards">{titles}</div>
+      <Logo />
+      <Nav />
+      <Hero />
+      <Titles />
       <div className="main">
-        {content}
-        {aside}
+        <Content />
+        <Aside />
       </div>
     </div>
   );

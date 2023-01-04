@@ -1,3 +1,5 @@
-const hero = <div className="hero"></div>;
+const Hero = () => {
+  return <div className="hero"></div>;
+};
 
-export { hero };
+export default Hero;
